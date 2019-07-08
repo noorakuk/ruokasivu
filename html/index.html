@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Ruokasofta</title>
+  </head>
+  <body>
+    <div class="login">
+      <input type="username" placeholder="Käyttäjä" id="username-input">
+      <input type="password" placeholder="Salasana" id="password-input">
+      <button type="login" name="button" id="login-button">
+        Kirjaudu sisään
+      </button>
+      <a href="./addingpage.html">Lisää ruoka</a>
+    </div>
+    <header>
+      <h1>Mitä tänään syötäisiin?</h1>
+    </header>
+    <p>Tähän ollaan kehittämässä hienoa ruokasoftaa, jonka jälkeen ei ole enää
+    ongelmaa sen kanssa, mitä söisi tänään!</p>
+
+    <div class="topnav">
+        <input type="text" placeholder="Etsi..." id="material-input">
+        <button type="button" name="button" id="search-button">
+          <img src="Images/searchimg.png" alt="">
+        </button>
+    </div>
+
+    <div class="tulokset">
+
+      <div class="tulos" id="aines">
+        <p>Valittu ruoka-aines</p>
+      </div>
+
+      <div class="tulos" id="ehdotukset">
+        <p>Ruokaehdotukset</p>
+      </div>
+
+    </div>
+    <script src="action.js" charset="utf-8"> </script>
+  </body>
+</html>
