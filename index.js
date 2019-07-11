@@ -13,6 +13,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/food', db.getFoods)
+app.get('/food/:stuff', db.getFoodByStuff)
 app.post('/food', db.addFood)
 
 // Käynnistetään ohjelma
