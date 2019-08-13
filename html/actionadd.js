@@ -23,14 +23,14 @@ function addToDatabase() {
   if (food_input.value == "") {
     console.log("Ruokaa ei lisätty");
     return;
-  } /*else if (stuff_input.value == "") {
+  } else if (stuff_input.value == "") {
     console.log("Aineksia ei lisätty");
     return;
-  }*/ else {
+  } else {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "POST", 'food', false ); // false for synchronous request
     xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xmlHttp.send( 'rnimi='+food_input.value );
+    xmlHttp.send("data="+JSON.stringify({"rnimi" : food_input.value, "animi" : stuff_input.value}));
+    // xmlHttp.send(JSON.stringify({"rnimi" : food_input.value, "animi" : stuff_input.value}));
     };
-
 };

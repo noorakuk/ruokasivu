@@ -1,0 +1,60 @@
+body {
+  background-color:  #91a8ee;
+  font-family: Asap, Impact, sans-serif;
+
+}
+
+.topBanner {
+  text-align: center;
+  padding: 25px;
+  font-size: 25px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+
+}
+
+.loginInfo {
+  padding-left: auto;
+  margin-bottom: 10px;
+  padding-left: 32.5%;
+}
+
+.registerInfo {
+  padding-left: auto;
+  margin-bottom: 10px;
+  padding-left: 32.5%;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid grey;
+  height: 30px;
+  width: 35%;
+
+}
+
+button {
+  transition: all 0.3s ease;
+  display: block;
+  border-radius: 4px;
+  height: 30px;
+  text-align: center;
+  width: 25.5%;
+  margin-left: 32.5%;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #bfc3c9;
+}
+
+a {
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 32.5%;
+  margin-top: 10px;
+}
